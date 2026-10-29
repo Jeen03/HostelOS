@@ -1,0 +1,31 @@
+/* HostelOS Layout Styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-main);
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 60px;
+}
+
+.footer-section {
+  border-top: 1px solid var(--border-subtle);
+  background: var(--footer-bg);
+  padding: 24px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.02);
+}
+
+.footer-content {
+  max-width: 1380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
